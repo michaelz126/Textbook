@@ -8,7 +8,10 @@ public class Book
 
     /** Creates a new Book with given title and price */
     public Book(String bookTitle, double bookPrice)
-    {   /* implementation not shown */  }
+    { 
+        title = bookTitle;
+        price = bookPrice;
+    }
 
 
     /** Returns the title of the book */
@@ -21,6 +24,8 @@ public class Book
     {
         return title + "-" + price;
     }
+
+
    
 // There may be instance variables, constructors, and methods that are not // shown.
 }
